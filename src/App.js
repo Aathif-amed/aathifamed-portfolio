@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Background from "./Components/Background";
-import Text from "./Components/Text";
+import Header from "./Components/Header"
 function App() {
   return <>
   <Background/>
-  <Text></Text>
+  <Header/>
   </>
 }
 
