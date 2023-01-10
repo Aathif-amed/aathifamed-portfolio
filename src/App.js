@@ -1,11 +1,17 @@
 import "./App.css";
 import Background from "./Components/Background";
-import Header from "./Components/Header"
+import Header from "./Components/Header";
+import Home from "./Components/Home";
 function App() {
-  return <>
-  <Header/>
-  <Background/>
-  </>
+  return (
+    <>
+      <Header />
+      <main className="main">
+        <Home />
+      </main>
+      <Background />
+    </>
+  );
 }
 
 export default App;
