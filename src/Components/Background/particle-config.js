@@ -21,7 +21,7 @@ const particleConfig ={
       color: { value: "#000" },
       line_linked: {
         color: "#000",
-        distance: 80,
+        distance: 70,
         enable: true,
         opacity: 0.4,
         width: 1
@@ -36,7 +36,7 @@ const particleConfig ={
         speed: 1,
         straight: false
       },
-      number: { density: { enable: true, value_area: 800 }, value: 80 },
+      number: { density: { enable: true, value_area: 800 }, value: 60  },
       opacity: {
         anim: { enable: false, opacity_min: 0.1, speed: 0.1, sync: false },
         random: false,
