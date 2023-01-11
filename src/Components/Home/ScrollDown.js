@@ -4,7 +4,7 @@ import { UilArrowDown } from "@iconscout/react-unicons";
 function ScrollDown() {
   return (
     <div className="home_scroll">
-      <a href="#about" className="home_scroll_button button_flex">
+      <a href="#skills" className="home_scroll_button button_flex">
         <svg
           width="32px"
           height="32px"
