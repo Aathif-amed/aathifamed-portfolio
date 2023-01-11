@@ -17,7 +17,7 @@ function Backend() {
           <box-icon name="badge-check"className="skills_icon"></box-icon>
           <div>
             <h3 className="skills_name">SQL</h3>
-            <span className="skills_level">BASIC</span>
+            <span className="skills_level">Basic</span>
           </div>
         </div>
         </div>

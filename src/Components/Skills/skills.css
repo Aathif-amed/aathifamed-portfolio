@@ -2,6 +2,7 @@
   grid-template-columns: repeat(2, 350px);
   column-gap: 3rem;
   justify-content: center;
+  /* background-color: aqua; */
 }
 
 .skills_content {
@@ -9,6 +10,9 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 2rem 4rem;
   border-radius: 1.25rem;
+  z-index: 1;
+
+box-shadow: 5px 10px #888888 
 }
 
 .skills_title {
@@ -22,6 +26,7 @@
   display: flex;
   justify-content: center;
   column-gap: 2.5rem;
+  
 }
 .skills_group {
   display: grid;
