@@ -7,14 +7,14 @@ function Backend() {
     <div className="skills_box">
       <div className="skills_group">
         <div className="skills_data">
-          <box-icon name="badge-check"className="skills_icon"></box-icon>
+          <box-icon name="nodejs" type="logo"className="skills_icon"></box-icon>
           <div>
             <h3 className="skills_name">NodeJS</h3>
             <span className="skills_level">Intermediate</span>
           </div>
         </div>
         <div className="skills_data">
-          <box-icon name="badge-check"className="skills_icon"></box-icon>
+          <box-icon name="data" type="solid"className="skills_icon"></box-icon>
           <div>
             <h3 className="skills_name">SQL</h3>
             <span className="skills_level">Basic</span>
@@ -23,14 +23,14 @@ function Backend() {
         </div>
       <div className="skills_group">
         <div className="skills_data">
-          <box-icon name="badge-check"className="skills_icon"></box-icon>
+          <box-icon name="mongodb" type="logo"className="skills_icon"></box-icon>
           <div>
             <h3 className="skills_name">MongoDB</h3>
             <span className="skills_level">Intermediate</span>
           </div>
         </div>
         <div className="skills_data">
-          <box-icon name="badge-check"className="skills_icon"></box-icon>
+          <box-icon name="aws" type="logo"className="skills_icon"></box-icon>
           <div>
             <h3 className="skills_name">AWS EC2 & S3</h3>
             <span className="skills_level">Basic</span>
