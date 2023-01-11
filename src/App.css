@@ -11,7 +11,7 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: "transparent";
+  --container-color: "#fff";
 
   /* Font and Typography */
   --body-font: "Poppins", sans-serif;
@@ -119,13 +119,13 @@ img {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
-.section-subtitle {
+.section_subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
-.section-title,
-.section-subtitle {
+.section_title,
+.section_subtitle {
   text-align: center;
 }
 
