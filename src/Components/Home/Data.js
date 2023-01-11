@@ -58,7 +58,7 @@ function Data() {
       <h3 className="home_subtitle">Full Stack Developer</h3>
       <p className="home_description">
         Results-driven computer science student passionate about developing
-        front end applications. Excellent problem-solving skills and ability to
+        full stack applications. Excellent problem-solving skills and ability to
         perform well in a team and adroit at HTML,CSS,JavaScript,ReactJs,NodeJS
         and MongoDB.
       </p>
