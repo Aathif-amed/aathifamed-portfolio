@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Skills from "./Components/Skills"
 import Contact from "./Components/Contact"
+import SocialLinks from "./Components/SocialLinks"
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Contact/>
       </main>
       <Background />
+      <SocialLinks/>
     </>
   );
 }
