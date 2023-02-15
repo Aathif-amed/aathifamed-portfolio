@@ -50,7 +50,7 @@
   margin-bottom: var(--mb-3);
 }
 .home_img {
-  background: url(../../assets//about.JPG);
+  background: url("https://res.cloudinary.com/dgrkhvtdv/image/upload/v1676459644/personal/about_mziu35.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

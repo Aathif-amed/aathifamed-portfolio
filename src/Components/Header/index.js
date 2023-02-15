@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import * as Unicons from "@iconscout/react-unicons";
-import logo from "./logo.svg";
+import logo from "../../assets/logo.svg";
 function Index() {
   //change header background
   window.addEventListener("scroll", function () {
