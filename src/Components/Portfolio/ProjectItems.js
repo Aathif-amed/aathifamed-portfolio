@@ -11,14 +11,24 @@ function ProjectItems({ item }) {
       />
       <h3 className="project_title">{item?.title}</h3>
       <div className="project_button_div">
-        <a href={item?.demo} className="project_button">
+        <a
+          href={item?.demo}
+          className="project_button"
+          target="_blank"
+          rel="noreferrer"
+        >
           Demo{" "}
           <FaEye
             className="project_button_icon"
             style={{ display: "inline" }}
           />
         </a>
-        <a href={item?.frontEnd} className="project_button">
+        <a
+          href={item?.frontEnd}
+          className="project_button"
+          target="_blank"
+          rel="noreferrer"
+        >
           {item.backEnd ? "FrontEnd" : "Source Code"}
           {item.backEnd ? (
             <FaReact
@@ -37,6 +47,8 @@ function ProjectItems({ item }) {
           className={
             item.backEnd ? "project_button " : "project_button notAvail"
           }
+          target="_blank"
+          rel="noreferrer"
         >
           BackEnd{" "}
           <FaDatabase
