@@ -50,8 +50,8 @@ function Index() {
               </li>
               <li className="nav_item">
                 <a
-                  href="#projects"
-                  onClick={() => setActiveNav("#projects")}
+                  href="#portfolio"
+                  onClick={() => setActiveNav("#portfolio")}
                   className={
                     activeNav === "#projects"
                       ? "nav_link active_link"
