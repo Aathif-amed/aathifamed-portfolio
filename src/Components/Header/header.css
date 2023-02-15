@@ -28,8 +28,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: grey;
   font-size: var(--small-font-size);
-  color: var(--title-color);
   font-weight: var(--font-medium);
   transition: 0.3s;
 }
@@ -43,7 +43,10 @@
 .nav_link:hover {
   color: var(--title-color-dark);
 }
-
+/* Change header background */
+.scroll_header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
 /* Breakpoints */
 
 /* For Medium Devices */
