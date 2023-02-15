@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
 import SocialLinks from "./Components/SocialLinks";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Home />
         <Skills />
         <Contact />
+        <Footer />
       </main>
       <Background />
       <SocialLinks />
