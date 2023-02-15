@@ -57,8 +57,8 @@ function Data() {
       </h1>
       <h3 className="home_subtitle">Full Stack Developer</h3>
       <p className="home_description">
-        Results-driven computer science student passionate about developing
-        full stack applications. Excellent problem-solving skills and ability to
+        Results-driven computer science student passionate about developing full
+        stack applications. Excellent problem-solving skills and ability to
         perform well in a team and adroit at HTML,CSS,JavaScript,ReactJs,NodeJS
         and MongoDB.
       </p>
@@ -80,6 +80,26 @@ function Data() {
             d="M10.11 14.7052C9.92005 14.7052 9.73005 14.6352 9.58005 14.4852C9.29005 14.1952 9.29005 13.7152 9.58005 13.4252L13.16 9.83518C13.45 9.54518 13.93 9.54518 14.22 9.83518C14.51 10.1252 14.51 10.6052 14.22 10.8952L10.64 14.4852C10.5 14.6352 10.3 14.7052 10.11 14.7052Z"
             fill="#fafafa"
           ></path>
+        </svg>
+      </a>
+      <a
+        href="https://drive.google.com/file/d/1PgmruRFJIEkVK7lo_zjEJN4Dju6lCytA/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+        className="button button_flex"
+        style={{ backgroundColor: "transparent" }}
+        id="resume_button"
+      >
+        Resume
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          style={{ fill: "rgba(0, 0, 0, 0.7)" }}
+        >
+          <path d="M19.903 8.586a.997.997 0 0 0-.196-.293l-6-6a.997.997 0 0 0-.293-.196c-.03-.014-.062-.022-.094-.033a.991.991 0 0 0-.259-.051C13.04 2.011 13.021 2 13 2H6c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V9c0-.021-.011-.04-.013-.062a.952.952 0 0 0-.051-.259c-.01-.032-.019-.063-.033-.093zM16.586 8H14V5.414L16.586 8zM6 20V4h6v5a1 1 0 0 0 1 1h5l.002 10H6z"></path>
+          <path d="M8 12h8v2H8zm0 4h8v2H8zm0-8h2v2H8z"></path>
         </svg>
       </a>
     </div>

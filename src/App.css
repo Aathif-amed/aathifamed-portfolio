@@ -132,35 +132,36 @@ img {
 }
 
 /* Layout */
-.container{
-  max-width: 968px;
+.container {
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
-.grid{
+.grid {
   display: grid;
-gap: 1.5rem;
+  gap: 1.5rem;
 }
 
 /* Buttons */
 
-.button{
+.button {
   display: inline-block;
   background-color: var(--title-color);
-  color:#fafafa;
+  color: #fafafa;
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.button:hover{
+.button:hover {
   background-color: var(--title-color-dark);
-
 }
-.button_icon{
+.button_icon {
   margin-left: var(--mb-0-5);
 }
-.button_flex{
+.button_flex {
   display: inline-flex;
   align-items: center;
 }

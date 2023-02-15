@@ -1,40 +1,38 @@
 import React from "react";
-import { FaAws, FaDatabase, FaNodeJs } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
-function Backend() {
+import { FaCloud, FaGitAlt } from "react-icons/fa";
+import { SiNetlify, SiPostman } from "react-icons/si";
+function Others() {
   return (
     <div className="skills_content">
-      <h3 className="skills_title">Backend </h3>
+      <h3 className="skills_title">Others </h3>
       <div className="skills_box">
         <div className="skills_group">
           <div className="skills_data">
-            <FaNodeJs className="skills_icon" />
+            <SiPostman className="skills_icon" />
             <div>
-              <h3 className="skills_name">NodeJS</h3>
+              <h3 className="skills_name">PostMan</h3>
               <span className="skills_level">Intermediate</span>
             </div>
           </div>
           <div className="skills_data">
-            <FaDatabase className="skills_icon" />
+            <SiNetlify className="skills_icon" />
             <div>
-              <h3 className="skills_name">SQL</h3>
-              <span className="skills_level">Basic</span>
+              <h3 className="skills_name">Netlify</h3>
             </div>
           </div>
         </div>
         <div className="skills_group">
           <div className="skills_data">
-            <SiMongodb className="skills_icon" />
+            <FaGitAlt className="skills_icon" />
             <div>
-              <h3 className="skills_name">MongoDB</h3>
+              <h3 className="skills_name">Git</h3>
               <span className="skills_level">Intermediate</span>
             </div>
           </div>
           <div className="skills_data">
-            <FaAws className="skills_icon" />
+            <FaCloud className="skills_icon" />
             <div>
-              <h3 className="skills_name">AWS EC2 & S3</h3>
-              <span className="skills_level">Basic</span>
+              <h3 className="skills_name">Render</h3>
             </div>
           </div>
         </div>
@@ -43,4 +41,4 @@ function Backend() {
   );
 }
 
-export default Backend;
+export default Others;

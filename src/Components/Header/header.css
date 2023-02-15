@@ -17,7 +17,8 @@
 .nav_logo,
 .nav_toggle {
   color: var(--title-color);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semi-bold);
+  font-size: 2rem;
 }
 .nav_list {
   display: flex;
@@ -32,7 +33,7 @@
   font-weight: var(--font-medium);
   transition: 0.3s;
 }
-.nav_icon,
+
 .nav_close,
 .nav_toggle {
   display: none;
@@ -65,7 +66,7 @@
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
   }
-  .show_menu{
+  .show_menu {
     bottom: 0;
   }
 
@@ -85,10 +86,10 @@
     cursor: pointer;
     color: var(--title-color);
   }
-  .nav_close:hover{
+  .nav_close:hover {
     color: var(--title-color-dark);
   }
-  .nav_toggle{
+  .nav_toggle {
     cursor: pointer;
   }
   .nav_icon,
@@ -100,10 +101,10 @@
 
 /* For Small Devices */
 @media screen and (max-width: 350px) {
- .nav_menu{
+  .nav_menu {
     padding: 2rem 0.25rem 4rem;
-
- }.nav_list{
+  }
+  .nav_list {
     column-gap: 0;
- }
+  }
 }

@@ -1,21 +1,29 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import "boxicons/dist/boxicons";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./contact.css";
 // require('dotenv').config()
 function Index() {
-    const form = useRef();
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current,  process.env.REACT_APP_CONTACT_PUBLIC_KEY)
-      .then((result) => {
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_CONTACT_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
-      e.target.reset();
+        }
+      );
+    e.target.reset();
   };
   return (
     <section className="contact section" id="contact">
@@ -29,7 +37,12 @@ function Index() {
               <i className="bx bx-envelope contact_card_icon"></i>
               <h3 className="contact_card_title">Email</h3>
               <span className="contact_card_data">aathifamed@gmail.com</span>
-              <a href="mailto:aathifamed@gmail.com" className="contact_button">
+              <a
+                href="mailto:aathifamed@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="contact_button"
+              >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact_button_icon"></i>
               </a>
@@ -41,6 +54,8 @@ function Index() {
               <span className="contact_card_data">+91-9087304086</span>
               <a
                 href="https://api.whatsapp.com/send/?phone=919087304086&text=Hello..!"
+                target="_blank"
+                rel="noreferrer"
                 className="contact_button"
               >
                 Write me{" "}

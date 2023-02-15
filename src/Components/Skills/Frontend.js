@@ -1,5 +1,7 @@
 import React from "react";
-import "boxicons/dist/boxicons";
+import { FaBootstrap, FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa";
+
+import { SiJavascript, SiMaterialui } from "react-icons/si";
 
 function Frontend() {
   return (
@@ -8,45 +10,44 @@ function Frontend() {
       <div className="skills_box">
         <div className="skills_group">
           <div className="skills_data">
-            <box-icon name="file-html" type="solid" className="skills_icon"></box-icon>
+            <FaHtml5 className="skills_icon" />
             <div>
               <h3 className="skills_name">HTML</h3>
               <span className="skills_level">Intermediate</span>
             </div>
           </div>
           <div className="skills_data">
-            <box-icon name="file-css" type="solid" className="skills_icon"></box-icon>
+            <FaCss3Alt className="skills_icon" />
             <div>
               <h3 className="skills_name">CSS</h3>
               <span className="skills_level">Intermediate</span>
             </div>
           </div>
           <div className="skills_data">
-            <box-icon name='javascript' type='logo'className="skills_icon"></box-icon>
+            <SiJavascript className="skills_icon" />
             <div>
               <h3 className="skills_name">JavaScript</h3>
               <span className="skills_level">Intermediate</span>
             </div>
           </div>
-          </div>
+        </div>
         <div className="skills_group">
-
           <div className="skills_data">
-            <box-icon  name='bootstrap' type='logo' className="skills_icon"></box-icon>
+            <FaBootstrap className="skills_icon" />
             <div>
               <h3 className="skills_name">Bootstrap</h3>
               <span className="skills_level">Advanced</span>
             </div>
           </div>
           <div className="skills_data">
-            <box-icon name='git' type='logo'className="skills_icon"></box-icon>
+            <SiMaterialui className="skills_icon" />
             <div>
-              <h3 className="skills_name">Git</h3>
-              <span className="skills_level">Intermediate</span>
+              <h3 className="skills_name">Mui</h3>
+              <span className="skills_level">Basic</span>
             </div>
           </div>
           <div className="skills_data">
-            <box-icon name='react' type='logo'className="skills_icon"></box-icon>
+            <FaReact className="skills_icon" />
             <div>
               <h3 className="skills_name">React</h3>
               <span className="skills_level">Intermediate</span>
