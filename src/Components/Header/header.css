@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 .header {
   width: 100%;
   position: fixed;
@@ -22,7 +22,7 @@
 }
 .nav_logo {
   font-size: 2rem;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Courgette", cursive;
 }
 .nav_list {
   display: flex;
