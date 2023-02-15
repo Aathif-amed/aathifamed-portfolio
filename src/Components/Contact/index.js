@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import { FaArrowRight, FaWhatsapp } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 // require('dotenv').config()
 function Index() {
   const form = useRef();
@@ -34,7 +36,7 @@ function Index() {
           <h3 className="contact_title">Talk to me</h3>
           <div className="contact_info">
             <div className="contact_card">
-              <i className="bx bx-envelope contact_card_icon"></i>
+              <HiOutlineMail className="contact_card_icon" />
               <h3 className="contact_card_title">Email</h3>
               <span className="contact_card_data">aathifamed@gmail.com</span>
               <a
@@ -43,12 +45,11 @@ function Index() {
                 rel="noreferrer"
                 className="contact_button"
               >
-                Write me{" "}
-                <i className="bx bx-right-arrow-alt contact_button_icon"></i>
+                Write me <FaArrowRight className="contact_button_icon" />
               </a>
             </div>
             <div className="contact_card">
-              {<i className="bx bxl-whatsapp contact_card_icon"></i>}
+              <FaWhatsapp className="contact_card_icon" />
 
               <h3 className="contact_card_title">Whatsapp</h3>
               <span className="contact_card_data">+91-9087304086</span>
@@ -58,8 +59,7 @@ function Index() {
                 rel="noreferrer"
                 className="contact_button"
               >
-                Write me{" "}
-                <i className="bx bx-right-arrow-alt contact_button_icon"></i>
+                Write me <FaArrowRight className="contact_button_icon" />
               </a>
             </div>
           </div>
