@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 .header {
   width: 100%;
   position: fixed;
@@ -18,6 +19,10 @@
 .nav_toggle {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+}
+.nav_logo {
+  font-size: 2rem;
+  font-family: "Permanent Marker", cursive;
 }
 .nav_list {
   display: flex;

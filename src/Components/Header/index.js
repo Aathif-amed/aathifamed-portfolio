@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
 import * as Unicons from "@iconscout/react-unicons";
-import logo from "../../assets/logo.svg";
-import { AiOutlineAppstore } from "react-icons/ai";
-
 function Index() {
   //change header background
   window.addEventListener("scroll", function () {
@@ -22,7 +19,7 @@ function Index() {
       <header className="header">
         <nav className="nav container">
           <a href="index.html" className="nav_logo">
-            <img src={logo} alt="profilePic" />
+            <i>Mohamed Aathif</i>
           </a>
           <div className="nav_toggle">
             <Unicons.UilApps
