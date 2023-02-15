@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./header.css";
 import * as Unicons from "@iconscout/react-unicons";
 import logo from "../../assets/logo.svg";
+import { AiOutlineAppstore } from "react-icons/ai";
+
 function Index() {
   //change header background
   window.addEventListener("scroll", function () {
@@ -20,8 +22,15 @@ function Index() {
       <header className="header">
         <nav className="nav container">
           <a href="index.html" className="nav_logo">
-            <img src={logo} style={{ marginBottom: "20px" }} alt="profilePic" />
+            <img src={logo} alt="profilePic" />
           </a>
+          <div className="nav_toggle">
+            <Unicons.UilApps
+              onClick={() => {
+                setToggle(!istoggle);
+              }}
+            />
+          </div>
           <div className={istoggle ? "nav_menu show_menu" : "nav_menu"}>
             <ul className="nav_list grid">
               <li className="nav_item">
@@ -78,14 +87,6 @@ function Index() {
             </ul>
             <Unicons.UilTimes
               className="nav_close"
-              onClick={() => {
-                setToggle(!istoggle);
-              }}
-            />
-          </div>
-          <div>
-            <Unicons.UilApps
-              className="nav_toggle"
               onClick={() => {
                 setToggle(!istoggle);
               }}
