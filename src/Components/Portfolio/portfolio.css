@@ -20,7 +20,7 @@
 }
 .project_container {
   display: grid;
-  grid-template-columns: repeat(3, max-content);
+  grid-template-columns: repeat(3, 25%);
   gap: 3rem;
   justify-content: center;
 }
@@ -40,6 +40,10 @@
 .project_title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-5);
+}
+.project_description {
+  font-size: var(--small-font-size);
   margin-bottom: var(--mb-0-5);
 }
 

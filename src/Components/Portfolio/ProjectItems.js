@@ -10,6 +10,7 @@ function ProjectItems({ item }) {
         className="project_image"
       />
       <h3 className="project_title">{item?.title}</h3>
+      <p className="project_description">{item.description}</p>
       <div className="project_button_div">
         <a
           href={item?.demo}
