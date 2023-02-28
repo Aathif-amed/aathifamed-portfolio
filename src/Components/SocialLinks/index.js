@@ -32,7 +32,7 @@ const Index = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://drive.google.com/file/d/1PgmruRFJIEkVK7lo_zjEJN4Dju6lCytA/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1C6Bx8zGTCSj_AqjyafcRkHkP3pRwdNh_/view?usp=sharing",
       style: "rounded-br-md",
     },
   ];
